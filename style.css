@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+
+header{
+    display: flex;
+    background-color: black;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+       
+}
+.logoHeader{
+    max-width: 16rem;
+}
+
+.iconHeader {
+    max-width: 14rem;
+    padding: 0 2rem 0 2rem;
+
+}
+
+#icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;         
+}
+
+h1 h2{
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.primeiraFoto{
+    background-image: url(imagens/Grupo\ 486@2x.png);
+    background-size: cover;
+    height: 130vh;
+    
+}
+
+main .primeiraFoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.titleBanner1{
+    margin-bottom: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleCenter{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+.logoCenter{
+    max-width: 10rem;
+    margin:3rem 5rem;
+}
+
+/* segunda seção*/
+
+.segundaFoto{
+    background-image: url(imagens/Interseção\ 16.png);
+    background-size: cover;
+       
+}
+
+.titleBanner2{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+        
+}
+.titleLeft {
+    font-family: 'Roboto', serif;;
+    font-size: 4rem;
+    font-weight: 800;
+    align-items: left;
+    margin-top: 25vh;
+    margin-left: 5rem;
+    display: flex;
+     
+}
+
+.paragraphLeft{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 3rem;
+    font-weight: 500;
+    align-items: left;
+    width: 40%;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 5rem;
+
+}
+
+
+/* botão1 - segunda seção*/
+
+.botão1 input[type="submit"]{
+    margin-top: 3rem;     
+    margin-left: 5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 28px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 71, 71);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+   
+}
+
+.botão1 [type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(90, 88, 88);
+}
+
+/* terceira seção */
+
+.terceiraFoto{
+    background-image: url(imagens/Grupo\ 480.png);
+    background-size: cover;
+    
+   
+}
+
+.titleBanner3{
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;    
+}
+.titleRight{
+    font-family: 'Roboto', serif;;
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+    align-items: end;
+    margin-top: 10rem;
+    margin-right: 17rem;
+    width: 30%;
+       
+}
+
+.paragraphRight{ 
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+   
+    color: white;
+    font-weight: 500;
+    width: 40%;
+    margin-top: 3rem;
+    margin-right: 8rem;
+      
+   
+}
+
+
+/* botão2 - terceira seção*/
+
+.botão2 input[type="submit"]{
+    margin-top: 3rem;     
+    height: 4rem;
+    width: 16rem;
+    border-radius: 28px;
+    border: none;
+    color:  rgb(73, 71, 71);
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 27rem;
+   
+   
+   
+}
+
+.botão2 [type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(90, 88, 88);
+}
+
+/* apoio  */
+
+.apoio{
+    
+    font-size: 1rem;
+    color: #fd6a9a;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+/* footer */
+
+footer{
+    height: 20rem;
+    background-color: #fd6a9a;
+    color: white;
+        
+}
+
+ul{
+    
+    list-style: none;
+   
+}
+
+.sectionFooter{
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    
+}
+.divFooter{
+  width: 20%;
+      
+}
+
+.divFooter h1{
+    font-family: Roboto, sans-serif;
+}
+
+li{
+    font-family: Roboto, sans-serif;
+}
+
