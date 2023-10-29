@@ -2,27 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', serif;
 }
 
 
 header{
     display: flex;
     background-color: black;
-    height: 12vh;
+    height: 15vh;
     align-items: center;
-    justify-content: space-around;
-       
-}
-.logoHeader{
-    max-width: 16rem;
+    justify-content: space-around;      
 }
 
-.iconHeader {
+.logoHeader{
+    max-width: 14rem;
+}
+
+.iconHeader1{
     max-width: 14rem;
     padding: 0 2rem 0 2rem;
-
 }
+
+.iconHeader2{
+    max-width: 14rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.iconHeader3{
+    max-width: 14rem;
+    padding: 0 2rem 0 2rem;
+}
+
 
 #icones {
     display: flex;
@@ -32,18 +41,16 @@ header{
 
 h1 h2{
     
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif; 
 }
 
 .primeiraFoto{
     background-image: url(imagens/Grupo\ 486@2x.png);
     background-size: cover;
     height: 130vh;
-    
 }
 
-main .primeiraFoto{
+.primeiraFoto{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,11 +59,12 @@ main .primeiraFoto{
 }
 
 .titleBanner1{
-    margin-bottom: 16rem;
+    margin-bottom: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .titleCenter{
     font-size: 4rem;
     font-weight: 800;
@@ -64,6 +72,7 @@ main .primeiraFoto{
     justify-content: center;
     text-align: center;
 }
+
 .logoCenter{
     max-width: 10rem;
     margin:3rem 5rem;
@@ -73,16 +82,15 @@ main .primeiraFoto{
 
 .segundaFoto{
     background-image: url(imagens/Interseção\ 16.png);
-    background-size: cover;
-       
+    background-size: cover;      
 }
 
 .titleBanner2{
     height: 130vh;
     display: flex;
-    flex-direction: column;
-        
+    flex-direction: column;      
 }
+
 .titleLeft {
     font-family: 'Roboto', serif;;
     font-size: 4rem;
@@ -90,22 +98,19 @@ main .primeiraFoto{
     align-items: left;
     margin-top: 25vh;
     margin-left: 5rem;
-    display: flex;
-     
+    display: flex;   
 }
 
 .paragraphLeft{
     font-family: 'Roboto', sans-serif;;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     align-items: left;
     width: 40%;
     text-align: left;
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-left: 5rem;
-
 }
-
 
 /* botão1 - segunda seção*/
 
@@ -120,8 +125,7 @@ main .primeiraFoto{
     background-color: rgb(73, 71, 71);
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    font-weight: 600;
-   
+    font-weight: 600;  
 }
 
 .botão1 [type="submit"]:hover{
@@ -133,9 +137,7 @@ main .primeiraFoto{
 
 .terceiraFoto{
     background-image: url(imagens/Grupo\ 480.png);
-    background-size: cover;
-    
-   
+    background-size: cover;  
 }
 
 .titleBanner3{
@@ -152,23 +154,18 @@ main .primeiraFoto{
     align-items: end;
     margin-top: 10rem;
     margin-right: 17rem;
-    width: 30%;
-       
+    width: 30%;    
 }
 
 .paragraphRight{ 
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-   
+    font-size: 2.5rem;
     color: white;
     font-weight: 500;
     width: 40%;
     margin-top: 3rem;
     margin-right: 8rem;
-      
-   
 }
-
 
 /* botão2 - terceira seção*/
 
@@ -183,10 +180,7 @@ main .primeiraFoto{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-right: 27rem;
-   
-   
-   
+    margin-right: 27rem;    
 }
 
 .botão2 [type="submit"]:hover{
@@ -195,16 +189,24 @@ main .primeiraFoto{
 }
 
 /* apoio  */
-
 .apoio{
-    
-    font-size: 1rem;
-    color: #fd6a9a;
     height: 15vh;
+    color: #fd6a9a;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    
+    margin-left: 5rem;
+}
+
+.apoioMobileTxt div{
+    display: inline-block;
+    justify-content: center;
+    margin: 10rem;
+    margin-right: 9rem;
+    font-size: 1.5rem;   
+}
+.iconesFooter{
+    display: none;
 }
 
 /* footer */
@@ -212,14 +214,17 @@ main .primeiraFoto{
 footer{
     height: 20rem;
     background-color: #fd6a9a;
-    color: white;
-        
+    color: white;       
 }
 
 ul{
     
     list-style: none;
-   
+    margin-top: 1rem;  
+}
+
+li{
+    font-family: Roboto, sans-serif;    
 }
 
 .sectionFooter{
@@ -227,18 +232,206 @@ ul{
     display: flex;
     align-items: center;
     margin-left: 5rem;
-    
+    line-height: 130%;  
 }
 .divFooter{
   width: 20%;
-      
+  margin-top: 2rem;   
 }
 
 .divFooter h1{
     font-family: Roboto, sans-serif;
 }
 
-li{
-    font-family: Roboto, sans-serif;
+@media (min-width:201px) and (max-width: 510px){
+   
+header{
+    height: 12vh;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;   
 }
 
+.logoHeader{
+    max-width: 12rem;
+    margin-left: 2rem;
+}
+
+.iconHeader1{
+    display: none; 
+}
+
+.iconHeader2{
+    display: none;  
+}
+/* primeira seção*/
+.titleBanner1 h1{
+    font-size: 2rem;     
+}
+.titleBanner1{
+    margin-top: 2rem;
+}
+
+
+.primeiraFoto{
+    background-image: url(imagens/Grupo\ 485.png);
+    background-size: 100% 100%; 
+}
+
+.logoCenter{
+    max-width: rem;
+    margin-bottom: rem;
+}
+
+/*segunda seção*/
+.segundaFoto{
+    background-image: url(imagens/Grupo\ 484.png);
+    background-size: 100% 100%;    
+}
+
+
+.titleBanner2 {
+    height: 106vh;
+}
+.titleLeft {
+    font-size: 2rem;
+    margin-top: 8vh;
+    margin-left: 2rem;
+}
+
+.paragraphLeft{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 60%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.botão1 input[type="submit"]{
+    margin-left: 2rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*terceira seção*/
+
+.terceiraFoto{
+    background-image: url(imagens/Grupo\ 496@2x.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.titleBanner3{
+    height: 120vh;
+}
+
+.titleRight{
+    font-size: 2rem;
+    margin-top: 10vh;
+    margin-right: 3rem;
+    width: 80%;
+}
+
+.paragraphRight{ 
+    font-size: 1rem;
+    width: 60%;
+    margin-top: 1rem;
+    margin-right: 8rem;
+}
+
+/*botão 2*/
+
+.botão2 input[type="submit"]{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 13rem;
+}
+/*apoio*/
+.apoio{
+    font-size: 0.8rem;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.apoioMobile {
+    display: flex;
+    justify-content: center;
+    color: #fd6a9a;
+    margin-top: 1rem;
+}
+ 
+.apoioMobileTxt{
+    display: flex;
+    justify-content: space-around;
+    color: #fd6a9a;
+    margin-top: 1rem;
+}
+
+.apoioMobileTxt h1{
+   font-size: 1.5rem;
+}
+
+/*footer*/
+
+footer{
+    height: 110vh;
+}
+ 
+.iconesFooter{
+    background-color: #fd6a9a;
+   
+}
+.sectionLogo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 
+}
+ 
+.sectionLogo img{
+    margin-top: 2rem;
+    max-width: 40vw;
+}
+.sectionFooter {
+    display: flex;
+    flex-direction: row;   
+}
+.icones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem 4rem  0 4rem;
+}
+
+.icones img{
+    max-width: 10vw;
+}
+
+.divFooter h1{
+    font-family: Roboto, sans-serif;
+
+}
+.sectionFooter div{
+    width: 100%;
+
+}
+
+.sectionFooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.sectionFooter div{
+    text-align: center;
+    margin-right: 5rem;
+ 
+}
+
+}
