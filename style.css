@@ -281,7 +281,8 @@ header{
 
 .primeiraFoto{
     background-image: url(imagens/Grupo\ 485.png);
-    background-size: 100% 100%; 
+    background-size: cover; 
+    background-position: center;
 }
 
 .logoCenter{
@@ -291,7 +292,8 @@ header{
 /*segunda seção*/
 .segundaFoto{
     background-image: url(imagens/Grupo\ 484.png);
-    background-size: 100% 100%;    
+    background-size: cover; 
+    background-position: center;    
 }
 
 .titleBanner2 {
@@ -323,8 +325,8 @@ header{
 
 .terceiraFoto{
     background-image: url(imagens/Grupo\ 496@2x.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
 }
 
 .titleBanner3{
