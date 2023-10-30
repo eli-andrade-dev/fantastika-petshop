@@ -279,15 +279,13 @@ header{
     margin-top: 2rem;
 }
 
-
 .primeiraFoto{
     background-image: url(imagens/Grupo\ 485.png);
     background-size: 100% 100%; 
 }
 
 .logoCenter{
-    max-width: rem;
-    margin-bottom: rem;
+    margin-bottom: 5rem;
 }
 
 /*segunda seção*/
@@ -295,7 +293,6 @@ header{
     background-image: url(imagens/Grupo\ 484.png);
     background-size: 100% 100%;    
 }
-
 
 .titleBanner2 {
     height: 106vh;
