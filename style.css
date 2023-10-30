@@ -205,9 +205,7 @@ h1 h2{
     margin-right: 9rem;
     font-size: 1.5rem;   
 }
-.iconesFooter{
-    display: none;
-}
+
 
 /* footer */
 
@@ -243,18 +241,24 @@ li{
     font-family: Roboto, sans-serif;
 }
 
-@media (min-width:201px) and (max-width: 510px){
+.iconesFooter{
+    display: none;
+}
+
+
+@media  (max-width: 500px){
    
 header{
     height: 12vh;
     width: 100%;
     justify-content: space-between;
-    position: fixed;   
+    position: fixed;
+       
 }
 
 .logoHeader{
     max-width: 12rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .iconHeader1{
@@ -263,6 +267,9 @@ header{
 
 .iconHeader2{
     display: none;  
+}
+.iconHeader3{
+    margin-right: 1rem;
 }
 /* primeira seção*/
 .titleBanner1 h1{
@@ -338,7 +345,7 @@ header{
     font-size: 1rem;
     width: 60%;
     margin-top: 1rem;
-    margin-right: 8rem;
+    margin-right: 9rem;
 }
 
 /*botão 2*/
@@ -352,30 +359,40 @@ header{
 }
 /*apoio*/
 .apoio{
-    font-size: 0.8rem;
     height: 15vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.apoioMobile {
-    display: flex;
-    justify-content: center;
     color: #fd6a9a;
     margin-top: 1rem;
+    margin-left: 0;
+    display: block;
 }
- 
+
+.apoioMobile{
+    display: flex;
+    justify-content: center;  
+}
+
+.apoioMobileTxt div{
+    display: inline-block;
+    justify-content: ;
+    margin: 0;
+    margin-right: 0;
+    font-size: 1.5rem;
+    height: 15vh;   
+}
+
 .apoioMobileTxt{
     display: flex;
     justify-content: space-around;
     color: #fd6a9a;
+    margin: 0;
     margin-top: 1rem;
+    margin-right: rem; 
 }
 
 .apoioMobileTxt h1{
    font-size: 1.5rem;
 }
+
 
 /*footer*/
 
@@ -385,7 +402,8 @@ footer{
  
 .iconesFooter{
     background-color: #fd6a9a;
-   
+    display: flex;
+    flex-direction: column;
 }
 .sectionLogo{
     display: flex;
