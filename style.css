@@ -283,8 +283,7 @@ header{
     background-image: url(imagens/Grupo\ 485.png);
     background-size: cover; 
     background-position: center;
-    
-    
+    max-width: 100vw;   
 }
 
 .logoCenter{
@@ -304,7 +303,7 @@ header{
 .titleLeft {
     font-size: 2rem;
     margin-top: 8vh;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .paragraphLeft{
@@ -312,11 +311,11 @@ header{
     font-weight: 500;
     width: 60%;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .botão1 input[type="submit"]{
-    margin-left: 2rem;
+    margin-left: 3rem;
     height: 3rem;
     width: 10rem;
     font-size: 1rem;
@@ -356,7 +355,7 @@ header{
     width: 10rem;
     font-size: 1rem;
     font-weight: 600;
-    margin-right: 13rem;
+    margin-right: 17rem;
 }
 /*apoio*/
 .apoio{
