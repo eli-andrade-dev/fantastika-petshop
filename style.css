@@ -281,10 +281,10 @@ header{
 
 .primeiraFoto{
     background-image: url(imagens/Grupo\ 485.png);
-    background-size: contain; 
+    background-size: cover; 
     background-position: center;
-    background-repeat: no-repeat;
-    height: 130vh;
+    
+    
 }
 
 .logoCenter{
